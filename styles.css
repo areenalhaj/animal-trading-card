@@ -1,0 +1,76 @@
+/* Reseting design  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body design */
+body{
+    font:13px 'Times New Roman', Times, serif;
+}
+/* Main card design */
+.card{
+    display: flex;
+    flex-direction: column;
+    width:323px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px #eee;
+    border-radius: 20px;
+    background-color: white;
+}
+/* the title design  */
+#page-header{
+    font: bold 20px times new roman,monospace;
+    padding: 10px;
+    margin-block: 5px;
+    text-shadow: 2px 1px #b3b2b2;
+}
+/* The image design  */
+.badgie-img{
+    margin: 5px;
+    border-radius: 20px;
+    margin-inline: 10px;
+    transition: all 500ms;
+}
+.badgie-img:hover{
+    border-radius: 10px;
+}
+/* The information section design  */
+.information{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    margin-inline: 10px;
+    margin-block: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px #eee;
+    background-color: white;
+    transition: all 500ms;
+}
+.information:hover{
+    background-color: rgb(222, 214, 230);
+    border-radius: 10px;
+    box-shadow: none;
+}
+/* fact information design */
+.fact-info{
+    font-style: italic;
+    text-shadow: 1px 0px #8d8d8d;
+
+}
+/* List design */
+ul{
+    list-style:none;
+    margin-block: 10px;
+
+}
+li span{
+    font-weight: bold;
+}
+/* details design */
+.detailed-info{
+    margin-block: 5px;
+}
